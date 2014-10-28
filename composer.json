@@ -1,0 +1,26 @@
+{
+	"name": "andyburton/sonic-framework-project",
+	"description": "Sonic PHP development framework Project",
+	"type": "project",
+	"keywords": ["sonic","framework"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andy Burton",
+			"email": "andy@burtonws.co.uk",
+			"homepage": "http://www.burtonws.co.uk",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "~5.5",
+		"andyburton/sonic-framework": "~1.3",
+		"smarty/smarty": "~3.1"
+	},
+	"autoload": {
+		"psr-4" : {
+			"SonicProject\\": "src/",
+			"Sonic\\": "classes/"
+		}
+	}
+}
